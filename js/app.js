@@ -1,6 +1,8 @@
-$("button").on("click", function (){
 
-	for (var i = 1; i < 100; i++) {
+var x = prompt("enter a number"); {
+	x = +x
+	y = parseInt(x); {
+	for (var i = 1; i <= y; i++) {
 
 	if (i % 3 == 0 && i % 5 == 0) {
 		$("ol").append("<li>" + "FizzBuzz" + "</li>")
@@ -14,4 +16,5 @@ $("button").on("click", function (){
  	else {
  		$("ol").append("<li>" + i + "</li>") 	}
  }
-});
+}
+}
